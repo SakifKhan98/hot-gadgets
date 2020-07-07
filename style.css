@@ -1,0 +1,99 @@
+.top-logo {
+    width: 100px;
+}
+
+.container {
+    margin-bottom: 100px;
+}
+
+.buy-now-button {
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 7px 25px;
+    cursor: pointer;
+}
+
+/* unvisited link */
+a:link {
+    color: #ff9900;
+  }
+  
+  /* visited link */
+a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+a:hover {
+    color: #ff0000;
+    text-decoration: none;
+  }
+  
+  /* selected link */
+a:active {
+    color: blue;
+  }
+
+.card img {
+    width: 200px;
+}
+
+.card-body {
+    justify-content: center;
+}
+.carousel-item {
+    padding: 20px 80px;
+}
+.carousel-item img {
+    width: 200px;
+}
+.price {
+    color: #ff136f;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px lightgray;
+}
+
+.card-img-top {
+    margin-bottom: 30px;
+}
+
+hr {
+        border-top: 8px solid #ff9900;
+        width: 130px;
+        border-radius: 150px;
+}
+
+.cat-img {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 2px 2px 25px 1px rgb(218, 213, 213);
+}
+
+.col-md-3 img {
+    padding: 50px;
+    width: 200px;
+}
+
+.orange-bg {
+    background-image: url("images/bg-1.png");
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+.top-bg {
+    background-image: url("images/bg-2.png");
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: bottom;
+    background-size: 150px;
+}
+
+footer {
+    text-align: center;
+}
