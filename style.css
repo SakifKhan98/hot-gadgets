@@ -97,3 +97,41 @@ hr {
 footer {
     text-align: center;
 }
+
+ ol.carousel-indicators {
+    position: absolute;
+    bottom: 5px;
+    margin: 0;
+    left: 0;
+    right: 0;
+    width: auto;
+ }
+
+ ol.carousel-indicators li{
+    width: 1rem;
+    height: 1rem;
+    margin: 0;
+    border-radius: 10px;
+    border: 0;
+    background: rgb(122, 104, 70);
+ }
+ 
+ ol.carousel-indicators li,
+ ol.carousel-indicators li.active {
+    width: 40px;
+    height: 10px;
+    margin: 0;
+    border-radius: 10px;
+    border: 0;
+    background: rgba(122, 104, 70, 0.315);
+ }
+ 
+ ol.carousel-indicators li {
+    background: rgba(211, 156, 7, 0.418);
+    margin-left: 10px;
+    margin-right: 10px;
+ }
+ 
+ ol.carousel-indicators li.active {
+    background: rgb(255, 166, 0);
+ }
